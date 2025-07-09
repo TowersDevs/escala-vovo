@@ -8,7 +8,7 @@ st.title("📅 Escala de Revezamento – Fim de Semana")
 st.markdown("Quem cuida da Vovó nesse fim de semana:")
 
 # Responsáveis na ordem da escala
-familia = ["Marcilene", "Nado", "Kazinho", "Beto"]
+familia = ["Kazinho", "Beto", "Marcilene", "Nado"]
 hoje = datetime.now()
 inicio_fds = hoje + timedelta(days=(5 - hoje.weekday()) % 7)
 fim_fds = inicio_fds + timedelta(days=1)
